@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# PRISM Exposition
 
-# Run and deploy your AI Studio app
+A beautiful, responsive, and interactive curated fine-art photography gallery built with React, Vite, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/2ed75025-33cd-4146-b0a4-85af7147aaa2
+- **Interactive Navigation**: Filter by category, favorites, or search query.
+- **Multiple Layouts**: Toggle between Uniform Grid, Masonry, and Compact List views.
+- **High-Res Lightbox**: Click on any image to view it in full screen with detailed EXIF camera specs and metadata.
+- **Editorial Design**: Modern and clean aesthetics powered by Tailwind CSS.
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js (v18 or higher recommended)
 
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## License
+Apache-2.0
