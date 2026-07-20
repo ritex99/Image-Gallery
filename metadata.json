@@ -1,0 +1,6 @@
+{
+  "name": "Image Gallery",
+  "description": "A modern and responsive image gallery with category filtering, searching, smooth modal zoom, layout customization, keyboard controls, and beautiful transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
